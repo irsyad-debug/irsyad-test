@@ -1,0 +1,195 @@
+/* --- Type palette & utilities --- */
+:root {
+    --type-bug: #A8B820;
+    --type-dark: #705746;
+    --type-dragon: #7038F8;
+    --type-electric: #F8D030;
+    --type-fairy: #EE99AC;
+    --type-fighting: #C03028;
+    --type-fire: #EE8130;
+    --type-flying: #A890F0;
+    --type-ghost: #705898;
+    --type-grass: #78C850;
+    --type-ground: #E0C068;
+    --type-ice: #98D8D8;
+    --type-normal: #A8A77A;
+    --type-poison: #A040A0;
+    --type-psychic: #F85888;
+    --type-rock: #B8A038;
+    --type-steel: #B7B7CE;
+    --type-water: #6390F0;
+}
+
+/* Badges colored by type */
+.badge.type-bug {
+    background: var(--type-bug);
+    color: #fff;
+}
+
+.badge.type-dark {
+    background: var(--type-dark);
+    color: #fff;
+}
+
+.badge.type-dragon {
+    background: var(--type-dragon);
+    color: #fff;
+}
+
+.badge.type-electric {
+    background: var(--type-electric);
+    color: #000;
+}
+
+.badge.type-fairy {
+    background: var(--type-fairy);
+    color: #000;
+}
+
+.badge.type-fighting {
+    background: var(--type-fighting);
+    color: #fff;
+}
+
+.badge.type-fire {
+    background: var(--type-fire);
+    color: #fff;
+}
+
+.badge.type-flying {
+    background: var(--type-flying);
+    color: #000;
+}
+
+.badge.type-ghost {
+    background: var(--type-ghost);
+    color: #fff;
+}
+
+.badge.type-grass {
+    background: var(--type-grass);
+    color: #000;
+}
+
+.badge.type-ground {
+    background: var(--type-ground);
+    color: #000;
+}
+
+.badge.type-ice {
+    background: var(--type-ice);
+    color: #000;
+}
+
+.badge.type-normal {
+    background: var(--type-normal);
+    color: #000;
+}
+
+.badge.type-poison {
+    background: var(--type-poison);
+    color: #fff;
+}
+
+.badge.type-psychic {
+    background: var(--type-psychic);
+    color: #fff;
+}
+
+.badge.type-rock {
+    background: var(--type-rock);
+    color: #000;
+}
+
+.badge.type-steel {
+    background: var(--type-steel);
+    color: #000;
+}
+
+.badge.type-water {
+    background: var(--type-water);
+    color: #fff;
+}
+
+/* Card accent by primary type (top border only to keep it subtle) */
+.card.type-bug {
+    border-top: 4px solid var(--type-bug);
+}
+
+.card.type-dark {
+    border-top: 4px solid var(--type-dark);
+}
+
+.card.type-dragon {
+    border-top: 4px solid var(--type-dragon);
+}
+
+.card.type-electric {
+    border-top: 4px solid var(--type-electric);
+}
+
+.card.type-fairy {
+    border-top: 4px solid var(--type-fairy);
+}
+
+.card.type-fighting {
+    border-top: 4px solid var(--type-fighting);
+}
+
+.card.type-fire {
+    border-top: 4px solid var(--type-fire);
+}
+
+.card.type-flying {
+    border-top: 4px solid var(--type-flying);
+}
+
+.card.type-ghost {
+    border-top: 4px solid var(--type-ghost);
+}
+
+.card.type-grass {
+    border-top: 4px solid var(--type-grass);
+}
+
+.card.type-ground {
+    border-top: 4px solid var(--type-ground);
+}
+
+.card.type-ice {
+    border-top: 4px solid var(--type-ice);
+}
+
+.card.type-normal {
+    border-top: 4px solid var(--type-normal);
+}
+
+.card.type-poison {
+    border-top: 4px solid var(--type-poison);
+}
+
+.card.type-psychic {
+    border-top: 4px solid var(--type-psychic);
+}
+
+.card.type-rock {
+    border-top: 4px solid var(--type-rock);
+}
+
+.card.type-steel {
+    border-top: 4px solid var(--type-steel);
+}
+
+.card.type-water {
+    border-top: 4px solid var(--type-water);
+}
+
+/* Highlight current Pokémon in evolution chain */
+.badge.evo-current {
+  background: var(--bs-primary) !important;
+  color: #fff !important;
+  box-shadow: 0 0 0 .25rem rgba(var(--bs-primary-rgb, 13,110,253), .25);
+}
+.badge.evo-current:hover {
+  filter: brightness(0.95);
+}

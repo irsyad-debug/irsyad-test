@@ -1,0 +1,7 @@
+body { background: #fafafa; }
+.card img { transition: transform .15s ease-in-out; }
+.card:hover img { transform: scale(1.05); }
+.modal-backdrop { opacity: .25 !important; }
+
+:root { color-scheme: light dark; }
+html[data-bs-theme='dark'] body { background: var(--bs-body-bg); }
